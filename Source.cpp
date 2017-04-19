@@ -20,7 +20,8 @@ void display(int arr[], int size) {
 	cout << endl;
 }
 
-/*************************************/
+/*************************************
+Bubble Sort
 /*************************************/
 
 // bubble sort implementation
@@ -44,7 +45,8 @@ void bubbleSort(int arr[], int size) {
 	}
 }
 
-/*************************************/
+/*************************************
+Insertion Sort
 /*************************************/
 
 // insertion sort implementation
@@ -65,7 +67,8 @@ void insertionSort(int arr[], int size) {
 	}
 }
 
-/*************************************/
+/*************************************
+Merge Sort
 /*************************************/
 
 //function definition of merge()
@@ -142,9 +145,9 @@ void mergeSort(int *myArr, int size) {
 	delete(right);
 }
 
+/*************************************
+Quicksort Sort
 /*************************************/
-/*************************************/
-
 //divide() function which to sort the array with 
 //smaller value items to the left of the pivot and 
 //larger items to the right
@@ -178,9 +181,9 @@ void quickSort(int *myArr, int start, int end) {
 	}
 }
 
+/*************************************
+Counting Sort
 /*************************************/
-/*************************************/
-
 void countingSort(int arrA[], int size) {
 	// calculate max key value
 	int max = 0;
