@@ -217,9 +217,11 @@ int main() {
 	initialize(arr5000, 5000);
 	initialize(arr25000, 25000);
 	
+	cout<<" Before Sort";
 	display(arr10, 10);
 	mergeSort(arr10, 10);
 	//quickSort(arr10, 0, 9);
+	cout<<"After Sort";
 	display(arr10, 10);
 	return 0;
 
